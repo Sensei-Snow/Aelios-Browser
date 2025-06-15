@@ -1,0 +1,4 @@
+{
+  "tor_path": "path\\to\\your\\tor\\executable",
+  "comment": "Change the tor_path with your own path which goes to the Tor executable, see the README.md for more informations"
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>Page d'accueil - DuckDuckGo</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("C:/Users/44tut/PycharmProjects/Aelios/assets/background.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px 20px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .header img {
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .header p {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d58e02;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            margin: 10% auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            width: 50%;
+            flex-direction: column;
+        }
+
+        .title {
+            margin-bottom: 40px;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #d58e02;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-left: 30px;
+        }
+
+        button:hover {
+            background-color: #c78501;
+        }
+
+        button:active {
+            background-color: #a26b01;
+        }
+
+        h1 {
+            color: #d58e02;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="C:/Users/44tut/PycharmProjects/Aelios/assets/logo.png" alt="Logo de Aelios">
+        <p>Aelios</p>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            <h1>Bienvenue sur Aelios</h1>
+            <p>Recherchez sur DuckDuckGo directement depuis ici :</p>
+        </div>
+
+        <img src="C:/Users/44tut/PycharmProjects/Aelios/assets/duckduckgo.png" alt="Logo de DuckDuckGo" style="width: 200px; height: auto;">
+
+        <div class="search-bar">
+            <form action="https://duckduckgo.com/" method="get" style="width: 100%; display: flex; justify-content: center; align-items: center; margin-right: 5px;">
+                <input type="text" name="q" placeholder="Entrez votre recherche...">
+                <button type="submit">Rechercher</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

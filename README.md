@@ -1,2 +1,3 @@
-# Aelios-Browser
-Un navigateur Chromium simple et respectueux de la vie privée fait en Python
+<div align="center">
+    <img src=".assets/logo_title.png" alt="Mon Logo" width="400" />
+</div>

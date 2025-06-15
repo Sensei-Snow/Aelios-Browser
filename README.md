@@ -18,10 +18,17 @@ To access to the Tor network, you'll need to download the executable. With this 
 <br><br>
 Here is the link if you want to download the Tor executable : https://www.torproject.org/download/tor/
 <br><br>
-Then, you'll need to write the path to your own Tor executable in `config.json` :
+Then, you'll need to write the path to your own Tor executable in <code>config.json</code> :
+
 ```json
 {
-  "use_tor": true,
-  "port": 9050,
-  "auto_connect": false
+    "tor_path": "path\\to\\your\\tor\\executable",
+    "comment": "Change the tor_path with your own path which goes to the Tor executable, see the README.md for more informations"
 }
+```
+<br>
+
+<hr style="height:2px; background-color:gray; border:none;">
+<br>
+
+<h4>Second stage :</h4>

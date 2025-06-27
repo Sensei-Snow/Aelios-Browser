@@ -535,7 +535,7 @@ class Navigateur(QMainWindow):
 
                     if not launched:
                         print("[ERROR] -- Linux terminal not found")
-                        print("Maybe you have a too specific distribution, edsktop environnment or terminal...")
+                        print("Maybe you have a too specific distribution, desktop environment or terminal...")
                         print("If you want, the code to modify is in \"Aelios.py\" beyond the line 520")
 
                 elif system == "Darwin":
